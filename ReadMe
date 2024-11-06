@@ -1,0 +1,11 @@
+# Etsy-Embed
+
+This repository hosts the Etsy listing HTML file, which can be embedded into websites like Webador to display my Etsy shop listings dynamically. 
+
+## Usage
+- The hosted HTML file is used for embedding Etsy products in a webpage using an iframe.
+
+## Embedding
+Example iframe code for embedding into Webador:
+```html
+<iframe src="https://marvilusart.github.io/Etsy-Embed/etsy_listing.html" width="90%" height="1200" style="border:none;"></iframe>
