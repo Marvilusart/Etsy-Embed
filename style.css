@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.listing {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+img {
+    max-width: 100%;
+}
