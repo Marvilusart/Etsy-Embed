@@ -1,13 +1,29 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
-.listing {
+.character-profile, .scene {
     border: 1px solid #ddd;
-    padding: 15px;
-    margin: 15px 0;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
-img {
-    max-width: 100%;
+button {
+    margin-top: 5px;
+}
+
+.spinner {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 5px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
 }
